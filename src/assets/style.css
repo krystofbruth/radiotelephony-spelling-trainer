@@ -75,7 +75,7 @@ pre {
 }
 
 main {
-  padding: 7rem var(--padding) 0 var(--padding);
+  padding: 7rem var(--padding) 4rem var(--padding);
   display: flex;
   flex-direction: column;
   gap: 1rem;

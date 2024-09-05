@@ -41,7 +41,7 @@
         Talking to a speaker over the phone whose native language isn't English
         can be challenging on its own. Now imagine having to communicate your
         name, address, or god forbid, information like specific identification
-        codes/numbers. With this standardized alphabet, a lot confusion and
+        codes/numbers. With this standardized alphabet, a lot of confusion and
         misunderstanding can be avoided, resulting in quicker and more pleasant
         experience.
       </p>

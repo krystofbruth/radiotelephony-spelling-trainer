@@ -86,6 +86,7 @@ p.prompt {
   font-size: 2.5rem;
   font-weight: 600;
   text-align: justify;
+  overflow-wrap: anywhere;
   line-height: 1.1;
 }
 
