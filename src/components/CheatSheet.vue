@@ -121,12 +121,12 @@ section.CheatSheet {
 
 section.CheatSheet > article {
   border: 0.2rem solid var(--terciary-background);
-  padding: var(--padding);
+  padding: calc(var(--padding) / 2);
   border-radius: var(--border-radius);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 9rem;
   height: 9rem;
   gap: 1rem;
@@ -140,7 +140,6 @@ section.CheatSheet p {
 
 section.CheatSheet img {
   filter: invert() brightness(0.8);
-  height: 7rem;
-  aspect-ratio: 1/1;
+  height: 5.5rem;
 }
 </style>
