@@ -1,0 +1,105 @@
+/* General styling rules */
+
+:root {
+  --primary-background: #1e201e;
+  --secondary-background: #3c3d37;
+  --terciary-background: #4f5049;
+
+  --button-selected: #ccc0ad;
+
+  --text-color: #ecdfcc;
+  --focused-text-color: #bbb0a0;
+
+  --border-radius: 0.5rem;
+
+  --transition: 0.3s;
+  --padding: 1.4rem;
+
+  font-size: min(4vw, 18px);
+}
+
+body {
+  font-family: "Roboto Mono", sans-serif;
+  background-color: var(--primary-background);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--text-color);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--focused-text-color);
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  background-color: transparent;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+button.primary {
+  background-color: var(--button-selected);
+  color: black;
+  padding: calc(var(--padding) / 2);
+  border-radius: var(--border-radius);
+  font-size: inherit;
+  transition: var(--transition);
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+pre {
+  padding: calc(var(--padding) / 2) var(--padding);
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  background-color: var(--secondary-background);
+  width: fit-content;
+  letter-spacing: 0.2rem;
+}
+
+main {
+  padding: 7rem var(--padding) 0 var(--padding);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+div.wrapper {
+  padding: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  width: auto !important;
+  box-sizing: border-box;
+  display: block;
+}
+
+section.aside {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section.text {
+  padding: var(--padding);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-sizing: border-box;
+  line-height: 1.3;
+}
