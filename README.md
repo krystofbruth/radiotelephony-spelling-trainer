@@ -1,29 +1,29 @@
-# radiotelephony-vue
+# Radiotelephony Spelling Trainer
 
-This template should help get you started developing with Vue 3 in Vite.
+A small Vue app for practicing the International Radiotelephony (NATO/ICAO) spelling alphabet.
 
-## Recommended IDE Setup
+## What it does
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Train by spelling letters as radiotelephony words
+- Practice in three modes: **Alphabet**, **Random**, and **Sentence**
+- Reveal the expected answer for the current character
+- Use a built-in visual cheatsheet of all alphabet words
 
-## Customize configuration
+## Why
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Personally couldn't for the love of me hear the Microsoft Support Specialist on the phone and when I had to spell out my username to Microsoft, we weren't able to communicate properly. I made it my mission to learn this alphabet that pilots and the military use to make sense of of another even if the means of communication aren't perfectly clean.
 
-## Project Setup
+## Run locally
 
-```sh
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+Then open the local Vite URL shown in your terminal.
 
-```sh
-npm run build
-```
+## Scripts
+
+- `npm run dev` — start development server
+- `npm run build` — create production build
+- `npm run preview` — preview production build locally
