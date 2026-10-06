@@ -2,6 +2,10 @@
 
 A small Vue app for practicing the International Radiotelephony (NATO/ICAO) spelling alphabet.
 
+## Why
+
+Personally couldn't for the love of me hear the Microsoft Support Specialist on the phone and when I had to spell out my username to Microsoft, we weren't able to communicate properly. I made it my mission to learn this alphabet that pilots and the military use to make sense of of another even if the means of communication aren't perfectly clean.
+
 ## What it does
 
 - Train by spelling letters as radiotelephony words
@@ -9,9 +13,7 @@ A small Vue app for practicing the International Radiotelephony (NATO/ICAO) spel
 - Reveal the expected answer for the current character
 - Use a built-in visual cheatsheet of all alphabet words
 
-## Why
-
-Personally couldn't for the love of me hear the Microsoft Support Specialist on the phone and when I had to spell out my username to Microsoft, we weren't able to communicate properly. I made it my mission to learn this alphabet that pilots and the military use to make sense of of another even if the means of communication aren't perfectly clean.
+![Screenshot from the app](https://github.com/krystofbruth/radiotelephony-spelling-trainer/blob/main/public/presentation_01.png?raw=true)
 
 ## Run locally
 
